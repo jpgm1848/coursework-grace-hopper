@@ -36,10 +36,15 @@ body {
   width: 10%;
   padding-left: 15px;
   margin-left: 15px;
-  float: left;
+  float: right;
   font-style: italic;
   font-size: xx-large;
 }
+
+.list-position {
+  text-align: center;
+}
+ 
 
 figcaption {
   background-color: black;
