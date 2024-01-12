@@ -1,0 +1,86 @@
+/* commented out lines are being troubleshooted still */
+
+
+header span {
+  background-color: orange;
+  text-decoration: underline;
+
+}
+header{
+  text-align: center;
+}
+
+#subtitle{
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+body {
+  background-color: aliceblue;
+  font-family: copperplate;
+}
+
+/* figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: 0px
+} */
+
+.section{
+  text-indent: 158px ;
+}
+
+#giraffes-section{
+  text-indent: 158px;
+}
+
+#aside-list{
+  width: 10%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+/* aside-list indicates all the lists with the hyperlinks. ideally they will sit to the right of each image. */
+
+.list-position {
+  text-align: center;
+}
+ 
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  word-wrap: break-word;
+  height: auto;
+  width: 316px;
+
+}
+
+/* specific px width is being worked on. auto is too large. */
+
+.aside {
+  width: 30%;
+  color: rgb(9, 58, 9);
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+/* #giraffe-aside {
+  width: 30%;
+  color: rgb(9, 58, 9);
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: italic;
+  background-color: lightgray;
+} */
