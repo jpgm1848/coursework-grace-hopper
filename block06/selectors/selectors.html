@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>selectors</title>
+  <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+  <h1>This is an H1 Header</h1>
+  <p class="classname">This is a paragraph with a class</p>
+  <p id="id">This is a paragraph with an id</p>
+  <h1>Combinators!</h1>
+  <section>
+    <p>A paragraph that is a direct child of a section</p>
+    <p class="section-child-class">A paragraph that is a direct child of a section
+      and also has the section-child-class on it.</p>
+      <div class="section-child-class">A div with the section-child-class class</div>
+  </section>
+  <h1>Why are child combinators useful?</h1>
+  <ol class="red-list">
+    <li>Toby</li>
+    <li>Kara</li>
+    <li>Theo</li>
+    <li>Roy</li>
+  </ol>
+  <p>Suppose I only want one of these lists to have 
+    the bullets in red:
+  </p>
+  <ol>
+    <li>Burrito</li>
+    <li>Sandwich</li>
+    <li>Sushi</li>
+    <li>Burger</li>
+  </ol>
+</body>
+</html>
