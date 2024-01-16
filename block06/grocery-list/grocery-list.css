@@ -51,6 +51,7 @@ h1 {
   display: inline-flex;
   width: 400px;
   height: 250px;
+  padding: 10px;
 }
 
 .freezer > h2 {
@@ -95,4 +96,5 @@ h1 {
   display: inline-flex;
   width: 400px;
   height: 250px;
+  padding: 10px
 }
