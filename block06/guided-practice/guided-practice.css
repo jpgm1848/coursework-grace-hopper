@@ -1,0 +1,19 @@
+#three-border{
+  border: 3px solid black;
+}
+
+#five-margin {
+  border: 3px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#two-three-padding{
+  border: 3px solid black;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 3px;
+  padding-left: 3px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    table, th, td{
+      border: 1px solid black;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="guided-practice.css">
+  <title>guided-practice</title>
+</head>
+<body>
+  <h1>Guided Practice</h1>
+  <div>
+    <h3>Rowspan</h3>
+      <table>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+          <th>Savings for holiday!</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+          <td rowspan="2">$50</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </table>
+  </div>
+  <div>
+    <h3>Colspan</h3>
+    <table style="width:100%">
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>57</td>
+  </tr>
+  </table>
+  </div>
+  <div>
+    <h3>Nested list Roman type</h3>
+    <ol type="I">
+      <li>Countries</li>
+      <ol type="i">
+        <li>India</li>
+        <li>America</li>
+        <li>Russia</li>
+      </ol>
+      <li>Cities</li>
+      <ol type="i">
+        <li>Bengaluru</li>
+        <li>Washington DC</li>
+        <li>Moscow</li>
+      </ol>
+    </ol>
+  </div>
+  <div>
+    <h3>Unordered Nested List</h3>
+    <ul>
+      <li>Food</li>
+      <ul>
+        <li>Burgers</li>
+        <li>Wings</li>
+        <li>Fried Chicken</li>
+      </ul>
+      <li>Drinks</li>
+      <ul>
+        <li>Beer</li>
+        <li>Soda</li>
+        <li>Juice</li>
+      </ul>
+    </ul>
+  </div>
+  <div>
+    <h3>Border Three Pixels Thick</h3>
+    <p id="three-border">I have a 3px border</p>
+  </div>
+  <div>
+    <h3>Margins All Sides 5 Pixels</h3>
+    <p id="five-margin">This has a margin around all sides that is 5 pixels</p>
+  </div>
+  <div>
+    <h3>Padding two TP and three LR</h3>
+    <p id="two-three-padding">This has 2px padding on top and bottom and 3px on left and right</p>
+  </div>
+  <div>
+    <h3>Hello World Inline Orange</h3>
+    <p style="color: orange;">Hello World</p>
+  </div>
+  
+</body>
+</html>
