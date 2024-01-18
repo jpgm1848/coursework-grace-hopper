@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Form Examples</h1>
+  <form>
+    <!-- name field in an input is what the for in the label attaches to -->
+    <label for="catName">Cat name: </label><br> 
+    <!-- label connects to the input, exists for readability. -->
+    <input type="text" id="catName" name="catName"/><br><br>
+
+    <label for="catAge">Cat age</label><br>
+    <input type="number" id="catAge" name="catAge"/><br><br>
+
+    <label for="catPassword">Cat Password</label><br>
+    <input type="password" id="catPassword" name="catPassword"/><br><br>
+
+    <label for="catDescription">Cat description</label><br>
+    <textarea name="catDescription" id="catDescription" cols="50" rows="4">Let's try adding some text.</textarea><br>
+
+    <!-- Radios are exclusive, checkboxes can be checked at the same time -->
+
+    <h2>How do you feel about this cat?</h2>
+    <input type="checkbox" id="iLikeThisCatCheckbox" name="iLikeThisCat" value="like"/>
+    <label for="iLikeThisCat">I like this cat</label><br>
+    <input type="checkbox" id="iLoveThisCatCheckbox" name="iLoveThisCat" value="love">
+    <label for="iLoveThisCat">I love this cat</label><br><br>
+
+    <h2>How cool is this cat?</h2>
+    <input type="radio" id="catIsAwesomeRadio" name="catIsAwesomeRadio" value="awesome"/>
+    <label for="catIsAwesomeRadio">Cat is Awesome</label><br>
+    <input type="radio" id="catIsExcellentRadio" name="catIsAwesomeRadio" value="excellent">
+    <label for="catIsExcellentRadio">Cat is Excellent</label><br><br>
+    
+
+    <label for="typeOfPet">Choose a pet:</label>
+    <select name="typeOfPet" id="typeOfPet">
+      <option value="">Pick a pet:</option>
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="lizard">Lizard</option>
+    </select>
+    <br><br>
+    <input type="submit" value="submit">
+
+  </form>
+</body>
+</html>
