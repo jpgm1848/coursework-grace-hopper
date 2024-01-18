@@ -1,0 +1,45 @@
+.flexContainer {
+  background-color: teal;
+  padding: 10px;
+  /* ^allows margin around the first and last */
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item:nth-child(-n + 3) {
+  border: 5px solid black;
+}
+
+/* Doesn't selec the second one because it isn't .item */
+
+.item {
+  width: 30px;
+  height: 30px;
+  background-color: lightseagreen;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.item-2 {
+  width: 30px;
+  height: 70px;
+  background-color: lightseagreen;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+@media (max-width: 800px) {
+  .item {
+    background-color: yellow;
+  }
+}
+
+@media (max-width: 500px) {
+  .item-2 {
+    background-color: pink;
+  }
+}
