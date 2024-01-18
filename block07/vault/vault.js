@@ -2,7 +2,7 @@
 // The three variables will be created
 // An alert with the welcome message concatenated with the numbers will be
 
-welcome =
+let welcome =
   "You have received this message because you have been chosen to open an important vault. Here is the secret combination:";
 
 // Each variable has a different operation
